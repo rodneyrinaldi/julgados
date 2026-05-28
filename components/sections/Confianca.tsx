@@ -7,21 +7,14 @@ export function Confianca() {
       <div className="relative grid gap-10 md:grid-cols-2 md:items-start">
         <div>
           <SectionHeading
-            eyebrow="Por que confiar nos dados"
-            title="Origem registrada em cada informação."
+            eyebrow="Confiança total nos dados"
+            title="Origem clara em cada informação."
           />
-          <p className="mt-4 text-sm text-slate-300">
-            Em 2025, um tribunal brasileiro não conheceu um recurso com 43 acórdãos inexistentes
-            inventados por ChatGPT e advertiu o advogado formalmente.
+          <p className="mt-4 text-base text-slate-300">
+            Aqui, cada campo mostra a origem: STJ ou IA. Divergências são sinalizadas. Você sabe no que está se baseando.
           </p>
-          <p className="mt-4 text-sm text-slate-300">
-            No julgados.adv.br isso não acontece. Cada campo tem origem registrada:
-            se veio diretamente do STJ ou foi inferido pela IA — e com qual nível de confiança.
-            Quando as duas fontes divergem, sinalizamos. Você sabe exatamente no que está se baseando.
-          </p>
-          <p className="mt-4 text-sm text-slate-300">
-            Todo mês, novos acórdãos do STJ são processados e incorporados. Você sempre pesquisa
-            na jurisprudência atual. Sem precisar fazer nada.
+          <p className="mt-4 text-base text-slate-300">
+            Novos acórdãos do STJ são incorporados todo mês. Sempre atualizado, sem esforço.
           </p>
         </div>
 

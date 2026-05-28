@@ -6,7 +6,7 @@ const PLANS = [
     emoji: "💬",
     name: "STARTER",
     price: "R$ 33/mês",
-    tagline: "Para começar sem pensar duas vezes.",
+    tagline: "Comece já, sem burocracia.",
     featured: false,
     features: [
       { ok: true,  text: "Chatbot jurídico com IA no seu browser" },
@@ -17,14 +17,14 @@ const PLANS = [
       { ok: false, text: "Busca semântica (disponível no Essencial)" },
       { ok: false, text: "IA na nuvem com modelos maiores (Profissional)" },
     ],
-    note: "Menos que um café por dia. Para o advogado que quer começar a trabalhar com dados reais do STJ sem comprometer o orçamento.",
+    note: "Ideal para quem quer dados reais do STJ gastando pouco.",
     cta: "Assinar Starter — R$ 33/mês",
   },
   {
     emoji: "🔍",
     name: "ESSENCIAL",
     price: "R$ 61/mês",
-    tagline: "A experiência completa de busca.",
+    tagline: "Busca completa e sem limites.",
     featured: true,
     badge: "Mais escolhido",
     features: [
@@ -34,14 +34,14 @@ const PLANS = [
       { ok: true, text: "Filtros híbridos: relacional + semântico simultaneamente" },
       { ok: true, text: "Teses similares — encontra casos que buscas tradicionais nunca achariam" },
     ],
-    note: "Você descreve a situação. O sistema encontra os casos mais parecidos — mesmo que usem terminologia diferente. É a diferença entre pesquisar e descobrir.",
+    note: "Encontre casos parecidos, mesmo com termos diferentes.",
     cta: "Assinar Essencial — R$ 61/mês",
   },
   {
     emoji: "⚡",
     name: "PROFISSIONAL",
     price: "R$ 68/mês",
-    tagline: "IA mais poderosa. Respostas mais ricas.",
+    tagline: "IA avançada. Respostas detalhadas.",
     featured: false,
     features: [
       { ok: true,    text: "Tudo do Essencial +" },
@@ -51,7 +51,7 @@ const PLANS = [
       { ok: true,    text: "Reranking por perfil: advogado, acadêmico, doutrinador" },
       { ok: "warn",  text: "200 consultas/mês — excedente em créditos avulsos" },
     ],
-    note: "R$ 7 a mais que o Essencial. Para quem usa diariamente e precisa do melhor resultado.",
+    note: "Para quem usa todo dia e quer o melhor resultado.",
     cta: "Assinar Profissional — R$ 68/mês",
   },
 ];
@@ -116,7 +116,7 @@ const LOCAL_PLANS = [
 export function Planos() {
   return (
     <Section id="planos">
-      <div className="flex items-baseline justify-between gap-4">
+      <div className="flex items-baseline justify-between gap-4 text-base">
         <SectionHeading
           eyebrow="Planos"
           title="Simples. Direto. Sem surpresas."

@@ -3,46 +3,44 @@ export function Hero() {
     <section className="grid gap-10 md:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)] md:items-center">
       {/* Copy */}
       <div>
-        <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/5 px-3 py-1 text-[11px] font-medium text-blue-100">
+        <div className="inline-flex items-center gap-2 rounded-full border border-blue-500/30 bg-blue-500/5 px-3 py-1 text-xs font-medium text-blue-100">
           <span className="h-1.5 w-1.5 rounded-full bg-orange-500" />
-          Especializado em STJ — profundo onde outros são rasos
+          STJ sem mistério: respostas rápidas e confiáveis
         </div>
 
         <div className="mt-6 space-y-2">
-          <h1 className="text-3xl font-semibold tracking-tight text-slate-50 sm:text-4xl md:text-5xl">
-            O Jusbrasil encontra o acórdão.<br />
-            <span className="text-blue-300">O julgados.adv.br te diz o que fazer com ele.</span>
+          <h1 className="text-4xl font-semibold tracking-tight text-slate-50 sm:text-5xl md:text-6xl">
+            O julgados.adv.br resolve o STJ.<br />
+            <span className="text-blue-300">Respostas práticas, sem enrolação.</span>
           </h1>
-          <p className="max-w-xl text-sm leading-relaxed text-slate-300 md:text-[15px]">
-            Especializado em STJ. Profundo onde outros são rasos.
-            Sabe quais teses funcionam para cada polo. Como cada ministro vota.
-            Qual lei estava vigente na data. O que a doutrina diz — e de que lado.
+          <p className="max-w-xl text-base leading-relaxed text-slate-300 md:text-lg">
+            Descubra rapidamente o que funciona no STJ: teses, ministros, leis e doutrina. Tudo em linguagem simples.
           </p>
         </div>
 
-        <p className="mt-4 text-xs font-medium text-blue-100">
-          1 milhão de acórdãos. De 1990 a 2025. A partir de R$ 33 por mês.
+        <p className="mt-4 text-sm font-medium text-blue-100">
+          1 milhão de acórdãos. 1990–2025. Planos desde R$ 33/mês.
         </p>
 
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <a
             href="#cta-final"
-            className="rounded-full bg-blue-500 px-5 py-2.5 text-xs font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
+            className="rounded-full bg-blue-500 px-5 py-3 text-sm font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
           >
-            Começar grátis — 50 consultas sem cartão
+            Testar grátis — 50 consultas
           </a>
           <a
             href="#planos"
-            className="rounded-full border border-slate-700 px-5 py-2.5 text-xs font-semibold tracking-tight text-slate-100 hover:border-slate-500"
+            className="rounded-full border border-slate-700 px-5 py-3 text-sm font-semibold tracking-tight text-slate-100 hover:border-slate-500"
           >
-            Ver os planos
+            Ver planos
           </a>
         </div>
 
-        <div className="mt-5 flex flex-wrap items-center gap-4 text-[11px] text-slate-400">
-          <span>50 consultas gratuitas • Sem cadastro • Sem cartão</span>
+        <div className="mt-5 flex flex-wrap items-center gap-4 text-sm text-slate-400">
+          <span>50 consultas grátis • Sem cadastro</span>
           <span className="hidden h-1 w-1 rounded-full bg-slate-600 md:inline-block" />
-          <span className="hidden md:inline-block">Planos a partir de R$ 33/mês</span>
+          <span className="hidden md:inline-block">Planos desde R$ 33/mês</span>
         </div>
       </div>
 

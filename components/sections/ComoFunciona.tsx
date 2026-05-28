@@ -36,28 +36,29 @@ export function ComoFunciona() {
         <div>
           <SectionHeading
             eyebrow="Como funciona"
-            title="Você descreve. O chatbot pesquisa. A IA explica."
+            title="Descreva o caso. Veja a resposta."
           />
 
-          <div className="mt-5 space-y-4 text-sm text-slate-300">
-            {STEPS.map((step) => (
-              <div key={step.n}>
-                <p className="font-semibold text-slate-100">
-                  Passo {step.n} — {step.title}
-                </p>
-                <p className="mt-1">{step.detail}</p>
-                {step.n === "3" && (
-                  <ul className="mt-1 space-y-1 text-xs text-slate-300">
-                    {STEP3_LIST.map((item) => (
-                      <li key={item}>• {item}</li>
-                    ))}
-                  </ul>
-                )}
-              </div>
-            ))}
+          <div className="mt-5 space-y-4 text-base text-slate-300">
+            <div>
+              <p className="font-semibold text-slate-100">1 — Você descreve o caso</p>
+              <p className="mt-1">Exemplo: "Meu cliente tem dívida prescrita sendo cobrada." </p>
+            </div>
+            <div>
+              <p className="font-semibold text-slate-100">2 — Busca inteligente</p>
+              <p className="mt-1">Filtra por ministro, turma, período, resultado e significado.</p>
+            </div>
+            <div>
+              <p className="font-semibold text-slate-100">3 — Resposta estratégica</p>
+              <ul className="mt-1 space-y-1 text-sm text-slate-300">
+                <li>• Teses que funcionam</li>
+                <li>• Tendência dos ministros</li>
+                <li>• Leis e doutrina aplicadas</li>
+              </ul>
+            </div>
           </div>
 
-          <p className="mt-4 text-xs font-medium text-blue-100">
+          <p className="mt-4 text-sm font-medium text-blue-100">
             A IA cita acórdãos reais. Você verifica antes de usar. Zero risco de citar processo que não existe.
           </p>
         </div>

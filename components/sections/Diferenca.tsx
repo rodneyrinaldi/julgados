@@ -43,21 +43,18 @@ export function Diferenca() {
       <div className="relative grid gap-10 md:grid-cols-2 md:items-start">
         <div>
           <SectionHeading
-            eyebrow="A diferença que muda o caso"
+            eyebrow="O que só aqui faz"
             title={
               <>
-                Pesquisar jurisprudência qualquer ferramenta faz.<br />
-                <span className="text-slate-300">Entender o que fazer com ela é outra história.</span>
+                Outros mostram acórdão.<br />
+                <span className="text-slate-300">Aqui você entende o que fazer.</span>
               </>
             }
           />
-          <p className="mt-4 text-sm leading-relaxed text-slate-300">
-            Você encontra o acórdão no Jusbrasil. Você lê a ementa. Parece relevante.
-            Mas o que você realmente precisa saber é se a tese já foi tentada, se funcionou
-            para o seu polo, como o ministro relator costuma votar e se a lei citada estava
-            vigente na data do precedente.
+          <p className="mt-4 text-base leading-relaxed text-slate-300">
+            Descubra se a tese já foi tentada, se funcionou, como o ministro vota e se a lei estava vigente. Tudo em segundos.
           </p>
-          <p className="mt-4 text-sm font-semibold text-blue-100">
+          <p className="mt-4 text-base font-semibold text-blue-100">
             Nenhum buscador te responde isso. O julgados.adv.br responde.
           </p>
         </div>

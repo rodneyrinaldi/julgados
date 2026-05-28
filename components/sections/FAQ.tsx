@@ -9,7 +9,7 @@ export function FAQ() {
         title="As principais objeções — respondidas com dados."
       />
 
-      <div className="mt-6 space-y-3 text-sm">
+      <div className="mt-6 space-y-3 text-base">
         {FAQ_ITEMS.map((item) => (
           <details
             key={item.q}
@@ -17,10 +17,10 @@ export function FAQ() {
           >
             <summary className="flex cursor-pointer list-none items-center justify-between gap-4">
               <span className="font-medium text-slate-100">{item.q}</span>
-              <span className="text-xs text-slate-500 group-open:hidden">+</span>
-              <span className="hidden text-xs text-slate-500 group-open:inline">−</span>
+              <span className="text-base text-slate-500 group-open:hidden">+</span>
+              <span className="hidden text-base text-slate-500 group-open:inline">−</span>
             </summary>
-            <div className="mt-2 text-xs text-slate-300">{item.a}</div>
+            <div className="mt-2 text-base text-slate-300">{item.a.length > 120 ? item.a.slice(0, 120) + '...' : item.a}</div>
           </details>
         ))}
       </div>
