@@ -25,7 +25,7 @@ export function Hero() {
         <div className="mt-6 flex flex-wrap items-center gap-3">
           <a
             href="#cta-final"
-            className="rounded-full bg-blue-500 px-5 py-3 text-sm font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
+            className="rounded-full bg-blue-500 px-5 py-3 text-sm font-semibold text-white tracking-tight text-slate-950 hover:bg-blue-400"
           >
             Testar grátis — 50 consultas
           </a>

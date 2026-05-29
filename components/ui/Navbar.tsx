@@ -44,7 +44,7 @@ export function Navbar() {
           </a>
           <a
             href="#cta-final"
-            className="rounded-full bg-blue-500 px-4 py-2 text-xs font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
+            className="rounded-full bg-blue-500 px-4 py-2 text-xs text-white font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
           >
             Começar grátis
           </a>

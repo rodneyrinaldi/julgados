@@ -140,7 +140,7 @@ export function Planos() {
             }`}
           >
             {"badge" in plan && plan.badge && (
-              <div className="absolute -top-3 right-4 rounded-full bg-orange-600 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-slate-50">
+              <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 rounded-full bg-orange-600 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.16em] text-slate-50">
                 {plan.badge}
               </div>
             )}
@@ -150,7 +150,7 @@ export function Planos() {
               </h3>
               <span
                 className={`rounded-full px-2.5 py-1 text-[11px] font-semibold ${
-                  plan.featured ? "bg-blue-500 text-slate-950" : "bg-slate-800 text-slate-300"
+                  plan.featured ? "bg-blue-500 text-white" : "bg-slate-800 text-slate-300"
                 }`}
               >
                 {plan.price}
@@ -182,7 +182,7 @@ export function Planos() {
               href="#cta-final"
               className={`mt-4 inline-flex items-center justify-center rounded-full px-4 py-2 text-xs font-semibold ${
                 plan.featured
-                  ? "bg-blue-500 text-slate-950 hover:bg-blue-400"
+                  ? "bg-blue-500 text-white hover:bg-blue-400"
                   : "border border-slate-700 text-slate-100 hover:border-blue-400"
               }`}
             >

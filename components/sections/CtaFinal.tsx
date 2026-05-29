@@ -16,7 +16,7 @@ export function CtaFinal() {
           <div className="mt-6 flex flex-wrap items-center gap-3">
             <a
               href="#"
-              className="rounded-full bg-blue-500 px-6 py-3 text-base font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
+              className="rounded-full bg-blue-500 px-6 py-3 text-base text-white font-semibold tracking-tight text-slate-950 hover:bg-blue-400"
             >
               Testar grátis
             </a>
